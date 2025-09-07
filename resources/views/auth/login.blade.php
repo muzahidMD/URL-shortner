@@ -46,7 +46,7 @@
                 {{ __("Don't have an account?") }}
             </a>
 
-            <x-primary-button class="ms-3">
+            <x-primary-button class="ms-2">
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
