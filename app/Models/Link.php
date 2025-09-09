@@ -10,6 +10,10 @@ class Link extends Model
     /** @use HasFactory<\Database\Factories\LinkFactory> */
     use HasFactory;
     protected $guarded = [];
+    // protected $fillable = [
+    //     'slug',
+    //     'target'
+    // ];
 
     public function user()
     {
